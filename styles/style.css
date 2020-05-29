@@ -1,0 +1,116 @@
+
+* {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 30px 10%;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    height: 20px;
+    padding: 5px;
+}
+
+.item a{
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0 38px;
+    font-size: 20px;
+}
+
+/*.item a {*/
+/*    color: #140098;*/
+/*    transition: all 0.3s ease 0s;*/
+/*}*/
+
+.item a {
+    color: #080807;
+}
+
+.item a:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.signature {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 34px;
+    color: #080807;
+}
+
+.main-content {
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 30px;
+    font-family: "Hiragino Sans";
+
+}
+
+.profile-image{
+    background-image: url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    height: 487px;
+    width: 487px;
+
+}
+
+.section-container{
+    margin: 40px;
+    width: 100%;
+}
+
+.section-container h2{
+
+}
+
+.section-container article{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+}
+
+.section-container article .workplace {
+    flex: 0.6;
+    margin-right: 5%;
+    font-size: 20px;
+    font-family: "Hiragino Sans";
+    FONT-WEIGHT: 200;
+
+}
+
+.section-container article .description {
+    flex: 2;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: "Hiragino Sans";
+    FONT-WEIGHT: 200;
+}
