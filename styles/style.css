@@ -25,17 +25,14 @@ header {
     font-size: 20px;
 }
 
-/*.item a {*/
-/*    color: #140098;*/
-/*    transition: all 0.3s ease 0s;*/
-/*}*/
 
 .item a {
     color: #080807;
+    font-family: Verdana;
 }
 
 .item a:hover {
-    color: red;
+    color: rgba(109,0,28,0.85);
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -43,7 +40,7 @@ header {
 .signature {
     font-family: 'Shadows Into Light', cursive;
     font-size: 34px;
-    color: #080807;
+    color: rgba(109,0,28,0.85);
 }
 
 .main-content {
@@ -65,8 +62,12 @@ header {
 
 .intro-text {
     font-size: 30px;
-    font-family: "Hiragino Sans";
+    font-family: "Verdana";
+    transition: all 0.3s ease 0s;
+}
 
+.intro-text:hover{
+    color: rgba(109,0,28,0.85);
 }
 
 .profile-image {
@@ -87,9 +88,13 @@ header {
 }
 
 .section-container h2 {
-
+    color: rgba(109,0,28,0.85);
+    font-family: Verdana;
 }
+.section-container h2:hover{
 
+    transition: all 0.3s ease 0s;
+}
 .section-container article {
     display: flex;
     align-items: center;
