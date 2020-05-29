@@ -18,7 +18,7 @@ header {
     padding: 5px;
 }
 
-.item a{
+.item a {
     text-decoration: none;
     display: inline-flex;
     padding: 0 38px;
@@ -69,9 +69,8 @@ header {
 
 }
 
-.profile-image{
+.profile-image {
     background-image: url("../images/2.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -82,16 +81,16 @@ header {
 
 }
 
-.section-container{
+.section-container {
     margin: 40px;
     width: 100%;
 }
 
-.section-container h2{
+.section-container h2 {
 
 }
 
-.section-container article{
+.section-container article {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -113,4 +112,32 @@ header {
     font-size: 20px;
     font-family: "Hiragino Sans";
     FONT-WEIGHT: 200;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#gmail {
+    background-image: url("../images/gmail.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    height: 57px;
+    width: 57px;
+}
+
+#gmail:hover {
+    cursor: pointer;
+    background-image: url("../images/gmail-1.png");
+    transition: all 0.3s ease 0s;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    height: 57px;
+    width: 57px;
 }
